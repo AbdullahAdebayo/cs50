@@ -6,9 +6,13 @@ int main(void)
     int a = get_int("What's a? ");
     int b = get_int("What's b? ");
 
-    if (a >= b)
+    if (a > b)
     {
         printf("a is greater than b\n");
+    }
+    else 
+    {
+        printf("a is less than b\n");
     }
 
 
